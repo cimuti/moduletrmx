@@ -11,11 +11,12 @@ pkg install wget -y
 pkg install curl -y
 pkg install python -y
 pkg install nano -y
-pip install requests
-pip install mechanize
+pip install requests -y
+pip install mechanize -y
 pkg install php -y
 pkg install ruby -y
 pkg install mc -y
+pkg install bash -y
 pkg install zsh -y
 pkg install toilet -y
 pkg install figlet -y
