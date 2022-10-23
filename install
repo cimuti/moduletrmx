@@ -14,6 +14,7 @@ pkg install nano -y
 pip install requests -y
 pip install mechanize -y
 pkg install php -y
+pkg install lolcat -y
 pkg install ruby -y
 pkg install mc -y
 pkg install bash -y
