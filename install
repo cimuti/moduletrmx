@@ -11,8 +11,6 @@ pkg install wget -y
 pkg install curl -y
 pkg install python -y
 pkg install nano -y
-pip install requests -y
-pip install mechanize -y
 pkg install php -y
 pkg install ruby -y
 pkg install mc -y
@@ -25,6 +23,8 @@ pkg install cloudflared -y
 pkg install openssh -y
 pkg install sshpass -y
 gem install lolcat
+pip install requests
+pip install mechanize 
 python3 -m pip install --upgrade pip
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
