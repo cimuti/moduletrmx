@@ -15,7 +15,6 @@ pkg install php -y
 pkg install ruby -y
 pkg install mc -y
 pkg install bash -y
-pkg install zsh -y
 pkg install toilet -y
 pkg install figlet -y
 pkg install cowsay -y
@@ -26,7 +25,7 @@ gem install lolcat
 pip install requests
 pip install mechanize 
 python3 -m pip install --upgrade pip
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+
 
 
 
