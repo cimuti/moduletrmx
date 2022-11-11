@@ -2,7 +2,6 @@
 termux-setup-storage
 pkg update
 pkg upgrade -y
-pkg dist-upgrade -y
 pkg install root-repo -y
 pkg install x11-repo -y
 pkg install termux-api -y
