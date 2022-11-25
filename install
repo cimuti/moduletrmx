@@ -9,6 +9,8 @@ pkg install git -y
 pkg install wget -y
 pkg install curl -y
 pkg install python -y
+pip install python2 -y
+MATHLIB="m" pip install pandas -y
 pkg install nano -y
 pkg install php -y
 pkg install ruby -y
@@ -20,10 +22,23 @@ pkg install cowsay -y
 pkg install cloudflared -y
 pkg install openssh -y
 pkg install sshpass -y
-gem install lolcat
-pip install requests
-pip install mechanize 
+gem install lolcat -y
+pip install requests -y
+pip install mechanize -y 
 python3 -m pip install --upgrade pip
+pkg install tigervnc -y
+pkg install libuuid -y
+pip install openpyxl -y
+pip install numpy -y
+pip install scipy -y
+pkg install python-tkinter -y
+pip install tkintertable -y
+pip install customtkinter -y
+pip install XlsxWriter -y
+pip install colorama -y
+
+
+
 
 
 
