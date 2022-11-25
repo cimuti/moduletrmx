@@ -29,8 +29,8 @@ python3 -m pip install --upgrade pip
 pkg install tigervnc -y
 pkg install libuuid -y
 pip install openpyxl -y
-pip install numpy -y
-pip install scipy -y
+pkg install numpy -y
+pkg install scipy -y
 pkg install python-tkinter -y
 pip install tkintertable -y
 pip install customtkinter -y
