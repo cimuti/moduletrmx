@@ -2,13 +2,12 @@
 termux-setup-storage
 pkg update
 pkg upgrade
-pkg install root-repo -y
 pkg install x11-repo -y
 pkg install termux-api -y
-pkg install git -y
 pkg install wget -y
 pkg install curl -y
 pkg install python -y
+pip install python2
 MATHLIB="m" pip install pandas
 pkg install nano -y
 pkg install php -y
@@ -26,7 +25,6 @@ pip install --upgrade pip
 pip install requests
 pip install mechanize
 pkg install tigervnc -y
-pkg install libuuid -y
 pip install openpyxl
 pkg install python-tkinter -y
 pkg install xfce4 -y
