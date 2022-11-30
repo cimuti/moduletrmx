@@ -8,7 +8,7 @@ pkg install wget -y
 pkg install curl -y
 pkg install python -y
 pip install python2
-MATHLIB="m" pip install pandas
+
 pkg install nano -y
 pkg install php -y
 pkg install ruby -y
