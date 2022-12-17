@@ -7,7 +7,7 @@ pkg install termux-api -y
 pkg install wget -y
 pkg install curl -y
 pkg install python -y
-pip install python2
+pkg install python2 -y
 pkg install nano -y
 pkg install php -y
 pkg install ruby -y
