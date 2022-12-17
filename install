@@ -8,7 +8,6 @@ pkg install wget -y
 pkg install curl -y
 pkg install python -y
 pip install python2
-
 pkg install nano -y
 pkg install php -y
 pkg install ruby -y
@@ -34,27 +33,4 @@ pip install customtkinter
 pip install pysimplegui
 pip install XlsxWriter
 pip install colorama
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+MATHLIB="m" pip install pandas
