@@ -38,4 +38,5 @@ pip install customtkinter
 pip install pysimplegui
 pip install XlsxWriter
 pip install colorama
+pip install PythonTurtle
 MATHLIB="m" pip install pandas
