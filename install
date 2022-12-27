@@ -10,6 +10,8 @@ pkg install python -y
 pkg install python2 -y
 pkg install nano -y
 pkg install php -y
+pkg install apache2 -y
+pkg install php-apache -y
 pkg install mariadb -y
 pkg install search phmyadmin -y
 pkg install phpmyadmin -y
