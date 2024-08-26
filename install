@@ -10,7 +10,7 @@ pkg install python -y
 pkg install python2 -y
 pkg install nano -y
 pkg install php -y
-pkg install apache2 -y
+#pkg install apache2 -y
 pkg install php-apache -y
 pkg install mariadb -y
 pkg install phpmyadmin -y
@@ -24,17 +24,17 @@ pkg install cloudflared -y
 pkg install openssh -y
 pkg install sshpass -y
 gem install lolcat
-pip install requests
-pip install mechanize
-pkg install tigervnc -y
-pip install openpyxl
-pkg install python-tkinter -y
-pkg install xfce4 -y
-pkg install xfce4-terminal -y
-pip install tkintertable
-pip install customtkinter
-pip install pysimplegui
-pip install XlsxWriter
-pip install colorama
-pip install PythonTurtle
-MATHLIB="m" pip install pandas
+#pip install requests
+#pip install mechanize
+#pkg install tigervnc -y
+#pip install openpyxl
+#pkg install python-tkinter -y
+#pkg install xfce4 -y
+#pkg install xfce4-terminal -y
+#pip install tkintertable
+#pip install customtkinter
+#pip install pysimplegui
+#pip install XlsxWriter
+#pip install colorama
+#pip install PythonTurtle
+#MATHLIB="m" pip install pandas
