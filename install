@@ -38,4 +38,5 @@ gem install lolcat
 #pip install colorama
 #pip install PythonTurtle
 #MATHLIB="m" pip install pandas
+cd
 rm -r moduletrmx
