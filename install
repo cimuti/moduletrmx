@@ -1,7 +1,6 @@
 #!/usr/bin/bash
 termux-setup-storage -y
 pkg update
-pkg upgrade
 pkg install x11-repo -y
 pkg install termux-api -y
 pkg install wget -y
@@ -38,3 +37,4 @@ gem install lolcat
 #pip install colorama
 #pip install PythonTurtle
 #MATHLIB="m" pip install pandas
+pkg upgrade -y
