@@ -1,5 +1,5 @@
 #!/usr/bin/bash
-termux-setup-storage
+termux-setup-storage -y
 pkg update
 pkg upgrade
 pkg install x11-repo -y
@@ -20,7 +20,7 @@ pkg install bash -y
 pkg install toilet -y
 pkg install figlet -y
 pkg install cowsay -y
-pkg install cloudflared -y
+#pkg install cloudflared -y
 pkg install openssh -y
 pkg install sshpass -y
 gem install lolcat
@@ -38,5 +38,3 @@ gem install lolcat
 #pip install colorama
 #pip install PythonTurtle
 #MATHLIB="m" pip install pandas
-cd
-rm -r moduletrmx
